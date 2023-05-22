@@ -1,0 +1,24 @@
+DHash	perceptual.html#DHash	perceptual: DHash	
+HHash	perceptual.html#HHash	perceptual: HHash	
+PHash	perceptual.html#PHash	perceptual: PHash	
+MHash	perceptual.html#MHash	perceptual: MHash	
+RHash	perceptual.html#RHash	perceptual: RHash	
+`$`	perceptual.html#$,MHash	perceptual: `$`(hash: MHash): string	
+`$`	perceptual.html#$,RHash	perceptual: `$`(hash: RHash): string	
+dhash	perceptual.html#dhash,Image	perceptual: dhash(image: Image): uint64	
+dhashImg	perceptual.html#dhashImg,Image	perceptual: dhashImg(image: Image): Image	
+hhash	perceptual.html#hhash,Image,int	perceptual: hhash(image: Image; lduplets: int = 7): HHash	
+hhashImgs	perceptual.html#hhashImgs,Image	perceptual: hhashImgs(image: Image): tuple[lum, hue: Image]	
+phash	perceptual.html#phash,Image	perceptual: phash(image: Image): uint64	
+phashImg	perceptual.html#phashImg,Image	perceptual: phashImg(image: Image): Image	
+mhash	perceptual.html#mhash,Image,int,int	perceptual: mhash(image: Image; alpha: int = 2; level: int = 1): MHash	
+rhash	perceptual.html#rhash,Image	perceptual: rhash(image: Image): RHash	
+dhash	perceptual.html#dhash,string	perceptual: dhash(path: string): DHash	
+rhash	perceptual.html#rhash,string	perceptual: rhash(path: string): RHash	
+mhash	perceptual.html#mhash,string	perceptual: mhash(path: string): MHash	
+phash	perceptual.html#phash,string	perceptual: phash(path: string): PHash	
+hhash	perceptual.html#hhash,string	perceptual: hhash(path: string): HHash	
+diff	perceptual.html#diff,uint64,uint64	perceptual: diff(hash1, hash2: uint64): int	
+diff	perceptual.html#diff,HHash,HHash	perceptual: diff(hash1, hash2: HHash): int	
+diff	perceptual.html#diff,MHash,MHash	perceptual: diff(hash1, hash2: MHash): int	
+diff	perceptual.html#diff,RHash,RHash	perceptual: diff(hash1, hash2: RHash): float	
