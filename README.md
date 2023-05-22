@@ -10,6 +10,8 @@ Currently, there's 5 different hashes implemented here:
 * **MHash**. Marr hash, used in phash.org library and described in http://phash.org/docs/pubs/thesis_zauner.pdf. Current implementation is very slow and not very reliable; not recommended to use in the current state.
 * **PHash**. Radial hash, used in phash.org library and described in http://phash.org/docs/pubs/thesis_zauner.pdf. Very slow (relative to other hashes) when comparing hashes.
 
+In the future SIFT/SURF feature extraction can be added to the library. This should allow the most precise image matching. However it will also be the slowest one.
+
 [API Reference](https://denull.github.io/perceptual/)
 
 ## Installation
